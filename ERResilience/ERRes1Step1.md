@@ -30,7 +30,7 @@ Once you're done with this step, you will see your Resource Group with an east a
 
 ## Validation
 
-1. Browse to your Resource Group in the Portal
+1. Browse to your Resource Group in the Portal (the C## in the names below represents your Company ID, this documentation shows Company 10 as an example)
 2. You should see two new connection objects (C10e-VNetHub-gw-er-conn-SEA and C10w-VNetHub-gw-er-conn-DC) 
 3. Explore the route table of each ExpressRoute circuit, ensure you have the address prefixes for both Azure Region VNets in both ER Circuits. You can also use the resource visualizer to see the new connections "meshing" the Gateways and Circuits together.
 
